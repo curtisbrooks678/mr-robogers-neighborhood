@@ -72,6 +72,7 @@ COMP
 Test: "It will return a string for a multi-digit number with rules of most important to least important outlined in assignment prompt" 
 Code: neighborBot(12) 
 Expected Output:("Boop")
+COMP
 
 
 
