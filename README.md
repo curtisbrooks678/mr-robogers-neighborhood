@@ -1,42 +1,34 @@
-# _{Application Name}_
+# Mr. Roboger's Neighborhood
 
 #### By Curtis Brooks
 
-#### _{Brief description of application}_
+#### This application takes a number from the user and returns an array with certain numbers replaced with words.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Javascript
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This application will take a number as an input and return a range from 0 to the input number, replacing "Beep!" for 1, "Boop!" for 2, and "Won't you be my neighbor?" for 3. All other digits will return as normal. If a number has multiple digits, the rule for 3 will take precedence, then the rule of 2, followed by the rule of 1 (i.e. if input is 123, output will be "Won't you be my neighbor?")
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Clone [this]9https://github.com/curtisbrooks678/mr-robogers-neighborhood) repository to your desktop
+* Navigate to the top of the directory
+* Open index.html in your browser
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs
 
 ## License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License) 
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-Copyright (c) _date_ Curtis Brooks
+Copyright (c) 10/29/2021 Curtis Brooks
 
 ____________________________________
 
@@ -73,6 +65,7 @@ Test: "It will return a string for a multi-digit number with rules of most impor
 Code: neighborBot(12) 
 Expected Output:("Boop")
 COMP
+
 
 
 
