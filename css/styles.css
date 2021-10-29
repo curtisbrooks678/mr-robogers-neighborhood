@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+img {
+  border: solid black 5px;
+}
+
 h1 {
   text-align: center;
   background-color: rgb(206, 255, 128);
@@ -31,6 +35,9 @@ input#number {
 #output {
   text-align: center;
   background-color: honeydew;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid black 5px;
 }
 
 

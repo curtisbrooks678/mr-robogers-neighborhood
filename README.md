@@ -36,7 +36,7 @@ TESTS
 
 Describe: neighborBot()
 
-Test: "It will not return a 0 if the user inputs 0" 
+Test: "It will return a 0 if the user inputs 0" 
 Code: neighborBot(0) 
 Expected Output:(0)
 COMP
@@ -65,6 +65,8 @@ Test: "It will return a string for a multi-digit number with rules of most impor
 Code: neighborBot(12) 
 Expected Output:("Boop")
 COMP
+
+
 
 
 
