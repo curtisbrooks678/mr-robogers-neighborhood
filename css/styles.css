@@ -1,0 +1,38 @@
+#pic {
+  display: none;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(206, 255, 128);
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(244, 250, 189);
+}
+
+input#number {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+}
+
+#output {
+  text-align: center;
+  background-color: honeydew;
+}
+
+
+
+

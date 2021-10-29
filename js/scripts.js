@@ -13,6 +13,12 @@ function beepBoop(input) {
 }
 
 function neighborBot(input) { 
+  if (input === "") {
+    return "Beep! Boop! Please enter a number."
+  }
+  if (input < 0) {
+    return "Beep! Boop! Please enter a positive number."
+  }
   let inputRange = [];
   for (i = 0; i <= input; i++) {
     inputRange.push(" " + i);
@@ -30,6 +36,7 @@ $(document).ready(function() {
     const input = $("input#number").val();
     $("#output").text(neighborBot(input));
     console.log(input);
+    $("#pic").show();
   });
 });
 
