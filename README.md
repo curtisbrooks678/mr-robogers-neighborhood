@@ -16,7 +16,7 @@ This application will take a number as an input and return a range from 0 to the
 
 ## Setup/Installation Requirements
 
-* Clone [this]9https://github.com/curtisbrooks678/mr-robogers-neighborhood) repository to your desktop
+* Clone [this](https://github.com/curtisbrooks678/mr-robogers-neighborhood) repository to your desktop
 * Navigate to the top of the directory
 * Open index.html in your browser
 
