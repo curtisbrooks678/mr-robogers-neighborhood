@@ -67,6 +67,11 @@ COMP
 Test: "It will return a range of 0-9 if the user inputs a number 0-9" 
 Code: neighborBot(5) 
 Expected Output:("0, "Beep!", "Boop", "Won't you be my neighbor?", 4, 5")
+COMP
+
+Test: "It will return a string for a multi-digit number with rules of most important to least important outlined in assignment prompt" 
+Code: neighborBot(12) 
+Expected Output:("Boop")
 
 
 
