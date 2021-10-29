@@ -52,14 +52,17 @@ COMP
 Test: "It will return "Beep!" if the user inputs 1" 
 Code: neighborBot(1) 
 Expected Output:("Beep!")
+COMP
 
 Test: "It will return "Boop!" if the user inputs 2" 
 Code: neighborBot(2) 
 Expected Output:("Boop!")
+COMP
 
 Test: "It will return "Won't you be my neighbor?" if the user inputs 3" 
 Code: neighborBot(3) 
 Expected Output:("Won't you be my neighbor?")
+COMP
 
 Test: "It will return a range of 0-9 if the user inputs a number 0-9" 
 Code: neighborBot(5) 
