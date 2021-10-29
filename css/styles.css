@@ -5,11 +5,15 @@
 
 img {
   border: solid black 5px;
+  width: 40%;
+  height: auto;
+  margin: auto;
 }
 
 h1 {
   text-align: center;
   background-color: rgb(206, 255, 128);
+  border: solid black 5px;
 }
 
 p {
@@ -17,7 +21,7 @@ p {
 }
 
 body {
-  background-color: rgb(244, 250, 189);
+  background-color: rgb(241, 249, 173);
 }
 
 input#number {
